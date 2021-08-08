@@ -1,0 +1,7 @@
+order
+justify-content
+display
+flex-direction
+align-self
+align-items
+flex-wrap

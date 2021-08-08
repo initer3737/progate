@@ -1,0 +1,29 @@
+pindah 
+
+direktori default untuk file php.txt
+
+tujuan direktori home
+
+
+mv php.txt home bisa semua file
+
+
+
+
+ubah nama file  file= andika.txt
+
+mv andika.txt python.txt
+
+result file andika.txxt menjadi python.txt
+
+
+copy file misal file =poto.txt
+
+cp poto.txt kopian.txt  untuk direktory tambahkan -r
+
+
+hapus gunakan rm  untuk direktori tambahkan -r
+
+
+membuat file gunakan touch
+membaca file gunakan cat

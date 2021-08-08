@@ -1,0 +1,52 @@
+git init untuk memulai
+untuk menginisialisasi /
+
+
+git add file.html
+
+Untuk merekam file yang dipilih, jalankan command git commit -m "pesan"
+Kita menyebut penyimpanan seperti ini sebagai commit. Mohon diingat, ya.
+
+Apakah "pesannya" bisa apa saja?
+
+Pesan tersebut seharusnya mendeskripsikan konten yang mau di commit.
+Ngomong-ngomong, pesan ini disebut pesan commit dan biasanya pesan ini akan
+ di buat dalam bahasa Inggris untuk mempermudah kerja sama dengan tim internasional.
+
+
+
+
+menambah kan file ke git
+
+
+git remote add remote_name URL
+
+
+ mengunggah file ke git
+git push origin master 
+
+
+gunakkan pull untuk mengunduh file
+
+
+untuk melihat status perubahan kode program gunakan
+git status
+
+gunakan git diff untuk melihat perubahannya secara detil
+
+
+
+
+Sebelumnya kamu bilang aku harus menulis pesan commit yang bisa dimengerti 
+dengan mudah oleh orang lain, tapi bagaimana mereka bisa terlihat?
+
+Pertanyaan bagus, sekali lagi!
+Dengan menggunakan command git log, kamu atau orang lain dapat melihat 
+commit-commit.
+
+
+
+
+Untuk melihat perubahan-perubahan, kamu bisa menggunakan git log -p.
+Dengan panah atas dan bawah, kamu dapat bergulir ke seluruh perubahan. 
+Untuk keluar, cukup tekan tombol Q.

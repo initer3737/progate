@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="136px" height="120px" viewBox="0 0 136 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="60.0607716%" y1="77.1948695%" x2="-15.2089395%" y2="77.1948695%" id="linearGradient-1">
+            <stop stop-color="#27A776" offset="0%"></stop>
+            <stop stop-color="#3A8D6D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(-3.000000, -20.000000)">
+            <g id="Group-2">
+                <polygon id="Rectangle-11" fill="url(#linearGradient-1)" points="126 122 134 124 136.689476 138.526979 131.440249 139.093292 126 140"></polygon>
+                <polygon id="Rectangle-11" fill="#27A776" transform="translate(16.334679, 31.571792) rotate(-10.000000) translate(-16.334679, -31.571792) " points="4.73440651 24.5215106 29.8927464 25.3694985 30.0519524 38.6220732 2.61740655 33.7846226"></polygon>
+                <path d="M21.1588604,55 L140.750075,55 C141.322504,55 141.867497,55.2452797 142.24709,55.6737474 L167.053168,83.6737474 C167.785638,84.500526 167.709185,85.764546 166.882406,86.497015 C166.516619,86.821077 166.044842,87 165.556153,87 L-5.35211222,87 C-6.45668172,87 -7.35211222,86.1045695 -7.35211222,85 C-7.35211222,84.4884682 -7.15611083,83.9963797 -6.80441486,83.6249302 L19.7065578,55.6249302 C20.0842795,55.2259931 20.6094748,55 21.1588604,55 Z" id="Rectangle-13" fill="#39C992" transform="translate(80.000000, 71.000000) rotate(40.000000) translate(-80.000000, -71.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

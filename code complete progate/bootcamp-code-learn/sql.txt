@@ -1,0 +1,93 @@
+gunakan whildcard untuk menampilkan data yang persis 
+
+
+select * from name where home like "%sweet"
+
+home sweet baby
+blood sweet blood
+new sweet tomato
+new sweet shalad
+home sweet honey
+sweety sweet jeger webber man jansen
+
+
+
+untuk pencarian di awal gunakkan "awal%"
+untuk pencarian di akhir gunakkan "%akhir"
+
+contoh
+
+	select* from name where hoby like "%memancing"
+		output ="suka memancing"
+
+select* from name where hoby like "memancing%"
+	output ="memancing suka "
+
+
+is null 
+is not null
+
+
+alam SQL, kamu bisa mengurutkan baris menggunakan ORDER BY. 
+Kamu juga bisa memilih kolom tertentu yang ingin kamu urutkan, seperti 
+contoh berikut ini. Kamu juga harus menentukan bagaimana cara pengurutannya di bagian akhir kueri.
+
+order by columnname method order
+
+
+ORDER BY memerlukan method untuk mengurutkan data secara 
+"{menurun (DESC)" atau "menaik (ASC)".} 
+
+Urutan naik akan meletakkan nilai terkecil terlebih dahulu. 
+Sedangkan urutan turun akan meletakkan nilai terbesar terlebih dahulu.
+ Dalam code SQL, ASC digunakan untuk "ascending (menaik)" sedangkan DESC digunakan untuk "descending (menurun)".
+
+
+sql limit
+
+
+
+SELECT distinct()
+
+
+-------agregat ----
+hitung jumlah data=SUM (column_name)
+
+	RATA RATA =AVG()
+
+
+count()
+
+saat menggunakan COUNT, jumlah baris yang terhitung tidak mencakup baris
+ dengan nilai NULL. Oleh karena itu, untuk kasus
+ seperti gambar di sebelah kanan, hasil akhir hitungan COUNT adalah 4.
+
+Jika Anda ingin menghitung semua baris, termasuk baris dengan nilai NULL, 
+Anda harus menggunakan * (tanda bintang) dengan function COUNT. Ketika digunakan, * 
+akan menghitung jumlah total baris secara keseluruhan, termasuk yang nilainya NULL. 
+
+count(*);
+
+Dengan function MAX di SQL, Anda bisa mendapatkan nilai maksimum dari baris milik kolom 
+tertentu. Sebaliknya, dengan menggunakan function MIN, Anda bisa mendapatkan nilai minimum-nya.
+
+
+HAVING
+
+Bergantung pada urutannya, WHERE dan HAVING mencari target yang berbeda. WHERE mencari seluruh tabel 
+sebelum pengelompokan, sementara HAVING mencari grup yang dibuat dengan GROUP BY.
+
+subqueri
+
+select nama where umur >( select umur where umur=19);
+	ambil data nama dimana umurnya lebih dari 19 
+
+
+
+
+
+		alias
+
+
+joint
+

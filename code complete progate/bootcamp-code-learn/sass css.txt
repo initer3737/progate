@@ -1,0 +1,104 @@
+di sass ada keuntungan yang bisa diperoleh yaitu nested selector
+
+contohnya 
+
+
+
+<div class="main">
+ 
+
+ <!-- Tambahkan code HTML untuk menampilkan judul -->
+
+
+
+<h1>Apa itu Sass?</h1>
+
+
+
+
+<p>Sass adalah bahasa untuk membuat CSS menjadi lebih mudah dan efisien.</p>
+  
+ 
+
+ 
+<!-- Tambahkan code HTML untuk menampilkan deskripsi -->
+  
+  
+
+
+
+
+
+
+</div>
+
+
+
+css
+
+<!--untuk selector seperti h1 ,p dan lain lainnya -->
+
+cukup gunakkan h1{} tanpa tanda titik maupun &
+
+h1{
+color:white;
+}
+	h1{
+	color:white;
+	font-size:32;
+	}
+
+untuk menggunakkan kembali gunakan tanda titik 2 misal saya punya buttn bertulis nama
+
+
+</button class="tombol">nama</button>
+
+
+scss
+.tombol{
+background-color:blue;
+
+&:hover{
+opacity:1;
+}
+
+}
+
+
+untuk class di dalam element gunakan simbol &.nama class{}
+
+----vaiable--
+untuk membuat variable cukup ketikkan $nama-variable:nilai;
+
+inline block
+
+
+---------mixin
+dengan mixin anda tidak perlu menulis kan kodenya berulang kali anda hanya cukup masukkan kodenya 1 kali dan
+bisa digunakkan kembali ini seperti inheritance di bahasa pemrograman pada umumnya gunakkan 
+
+@mixin nama class{}
+
+untuk membuatnya semakin dinamis gunakkan argument contohnya seperti ini
+
+@mixin h1($warna){
+background-color:$warna;
+}
+
+header{
+
+@include h1(red){
+//maka otomatis backgroundnya berwarna red
+}
+
+
+uat file-file eksternal dengan
+import. Agar suatu file dapat diimport, kita harus menambahkan _ diawal 
+nama file. Selain itu, sintaksis umum untuk memuat file adalah @import filename 
+seperti terlihat pada contoh di kanan.
+
+
+
+
+
+

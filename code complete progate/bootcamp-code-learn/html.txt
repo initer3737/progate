@@ -1,0 +1,109 @@
+
+<html>
+
+komentar   <!-- blabla -->
+ancor   <a href="url"> </a>
+gambar   <img src="link">
+UL LI
+
+head {
+untuk menampung meta charset
+judul
+tautan css php dan javascript
+meta-charset=utf-8
+
+		LAYOUT
+	1.header main footer
+	2.div =digunakkan untuk mengelompokkan element web div kepanjangan dari divisi
+	3.span=diguunakkan untuk memisahkan huruf tertentu untuk di implementasikan css
+	4.border=digunakkan untuk ,memberi batas pada konten
+	5.form untuk membuat form terdapat{input,textarea(untuk multibaris)
+	6.input{submit} ,value="kirim"
+}
+</html>
+
+			CSS
+	CSS digunakan untuk mendesain situs web. Dengan CSS,
+ 	Anda dapat mengubah hal-hal seperti warna, ukuran, dan 
+	spasi pada element HTML. Gambar disisi kiri hanya terdiri 
+	dari HTML saja. Dengan menerapkan CSS, 
+	Anda dapat menentukan style seperti tata letak, sesuai contoh
+ 	yang ditampilkan disisi kanan. 
+
+<style>
+	color:blue;
+	font-size:12px;
+	font-family:ROBOTO;
+	     //jika ada spasi gunakkan titik 2	
+	font-family:"sans sherif";
+	font-family:lucida-grande;
+	background-folor:black;
+	widht:200px; //lebar
+	height:400px; //tinggi
+	float:left; //untuk menyejajarkan element ke rata kiri 
+	padding //menambahkan ruang
+	gunakan tanda ,untuk multiple selector h1,h2,h4,p{
+						color:blue;
+						}
+	background-image    jangan lupa pake url()
+	background-size:cover
+		opacity digunakkan untuk memberi efek transparan{0.0 sampai dengan 1.0}
+		untuk memberi jarak pada huruf gunakkan {letter-spacing}
+	hover
+	border-radius
+
+		inline-block && inline
+	
+		ikon
+ngan mudah mencari ikon menggunakan Font Awesome. Disana, banyak ikon 
+tersedia yang dapat Anda gunakan untuk halaman web Anda. Buka https://fontawesome.com/ untuk 
+melihat daftar ikon yang dapat Anda gunakan.
+
+
+Sebelumnya, kita telah menggunakan opacity untuk membuat element menjadi transparan. Namun, masalah 
+opacity adalah seluruh element menjadi transparan, termasuk element turunannya. Jika kita hanya ingin 
+membuat warna latar belakangnya saja yang menjadi transparan, kita dapat menggunakan rgba.
+
+jika menggunakkan 1 saja =padding diterapkan dalam urutan "atas/bawah" dan "kanan/kiri".
+
+		contoh 
+	h2{
+		padding :23px 10px 12px 12px;  //ingat tanpa tanda koma
+			 atas kanan bawah kiri
+	}
+
+
+CSS property {transition} dapat digunakan untuk menambahkan animasi. Anda dapat menentukan target
+ dan durasi animasinya. Target dapat berupa property, seperti {color}, namun kita akan lebih sering
+ menentukannya ke{ all} agar dapat diterapkan ke semua property. transition sering digunakan dengan
+ selector hover.
+CSS property {line-height} dapat digunakan untuk menentukan tinggi yang ditempati baris.
+
+
+
+
+display {block,inline-block}  font-weight:bold; //untuk menyeting ketebalan tulisan
+
+Anda dapat menggunakan CSS position: absolute; untuk membuat element bertumpang-tindih.
+ Dengan position: absolute;, Anda dapat menentukan posisinya relatif terhadap sudut kiri atas halaman web,
+ menggunakan property top dan left.
+
+
+CSS property box-shadow digunakan untuk menambahkan bayangan ke element apapun.
+ Kita dapat menggunakannya dengan menentukan panjang horizontal, panjang vertikal, dan warnanya.
+
+SS property cursor dapat digunakan untuk mengubah jenis
+kursor mouse seperti gambar dibawah ini.
+Beberapa tag HTML seperti tag <a> memiliki default CSS property cursor sebagai pointer.
+		{box-shadow:horizontal vertikal warna shadow;}
+
+Selector :active dapat digunakan untuk menambahkan CSS ini pada saat element sedang diklik, 
+
+
+
+
+Element
+Kita dapat menggunakan position: fixed; untuk menempatkan element dan menahannya diposisi 
+tertentu dilayar. Kita dapat mengatur ini dengan cara menggabungkannya dengan CSS property top dan left.
+
+</style>	

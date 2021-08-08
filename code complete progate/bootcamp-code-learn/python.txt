@@ -1,0 +1,39 @@
+module random math
+
+Konten class (atau instruksi blueprint) ditulis pada baris selanjutnya di bawah class 
+MenuItem: dan harus diindentasi.
+Karena saat ini kita tidak perlu untuk menulis apapun, maka dari itu kita ketik pass (dimana 
+kita gunakan saat tidak ada code untuk dijalankan) seperti pada gambar di kanan.
+
+
+
+Kita dapat mendefinisikan function di dalam class. Function yang didefinisikan di dalam class disebut method.
+Mendefinisikan method sama seperti mendefinisikan function normal lainnya, namun secara eksplisit, parameter pertama harus dinamai self!
+
+
+__init__ mirip seperti constructor di dart dan juga init di kotlin
+
+round()
+untuk membulatkan float ke desimal
+
+
+class
+
+objek
+inheritance
+
+contoh pewarisan
+
+//class induk
+
+class makanan:
+    kalori=90
+    protein=80
+	price=$5
+
+//anak
+class kopi(makanan):
+	pass
+
+
+super()

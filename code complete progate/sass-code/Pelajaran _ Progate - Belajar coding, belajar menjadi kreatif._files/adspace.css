@@ -1,0 +1,5 @@
+/* AdBlock が有効だとこの CSS ファイルは読み込まれない */
+
+#a-alert {
+  display: none;
+}
